@@ -1,0 +1,7 @@
+local vuln = Instance.New("RemoteEvent")
+
+vuln.OnServerEvent:Connect(function(arg1)
+  arg1:Destroy()
+)
+-- hi 
+  
